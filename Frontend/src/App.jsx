@@ -67,6 +67,7 @@ export default function App() {
     try {
       await deleteTask(taskId);
       setTasks((previous) => previous.filter((t) => t.id !== taskId));
+      setEditingTask((current) => (current?.id === taskId ? null : current));
       setErrorMessage("");
     } catch (error) {
       setErrorMessage(error.message);
