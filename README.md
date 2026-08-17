@@ -14,7 +14,7 @@ A full-stack task manager built with a **FastAPI + SQLite** backend and a
 
 1. Open a terminal and move into the backend folder:
    ```bash
-   cd task-manager/backend
+   cd Backend
    ```
 2. (Recommended) create and activate a virtual environment:
    ```bash
@@ -38,7 +38,7 @@ A full-stack task manager built with a **FastAPI + SQLite** backend and a
 
 1. Open a **second** terminal and move into the frontend folder:
    ```bash
-   cd task-manager/frontend
+   cd Frontend
    ```
 2. Install dependencies:
    ```bash
